@@ -33,3 +33,18 @@ print(a.capitalize())
 print(a.title())
 
 print(a.upper())
+
+s1 = r'\'hello, world!\''
+s2 = r'\n\\hello, world!\\\n'
+print(s1, s2, end=' ')
+
+print()
+
+a, b = 5, 10
+print(f'{a} * {b} = {a * b}')
+
+str1 = 'hello, world!'
+if "hello" in str1:
+    print("yes")
+else:
+    print("no")
